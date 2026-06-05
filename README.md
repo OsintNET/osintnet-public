@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.osintnet.com">
-    <img src="assets/osintnet-logo.png" alt="OsintNET logo" width="360">
+    <img src="assets/osintnet-logo-github.svg" alt="OsintNET logo" width="620">
   </a>
 </p>
 

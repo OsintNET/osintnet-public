@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">OsintNET logo</title>
+  <desc id="desc">OsintNET logo on a white background with black OSINT text, blue NET text and black OSINT Network subtitle.</desc>
+  <rect width="1200" height="320" rx="24" fill="#ffffff"/>
+
+  <defs>
+    <clipPath id="iconClip">
+      <rect x="88" y="54" width="212" height="212" rx="18"/>
+    </clipPath>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0b1220" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <rect x="88" y="54" width="212" height="212" rx="18" fill="#0a0a0a"/>
+    <image
+      href="osintnet-source-logo.png"
+      x="-8"
+      y="-8"
+      width="1065"
+      height="355"
+      preserveAspectRatio="xMidYMid slice"
+      clip-path="url(#iconClip)"
+    />
+  </g>
+
+  <g font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="345" y="177" font-size="122" letter-spacing="-4">
+      <tspan fill="#101820">OSINT</tspan><tspan fill="#08708f">NET</tspan>
+    </text>
+  </g>
+
+  <text
+    x="577"
+    y="232"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="31"
+    font-weight="500"
+    letter-spacing="19"
+    fill="#101820"
+  >OSINT NETWORK</text>
+</svg>
